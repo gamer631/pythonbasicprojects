@@ -1,0 +1,44 @@
+Beginner Python Learning Order
+
+1. project1.py - Simple Calculator
+   Learn: input, variables, arithmetic, if/else
+
+2. project2.py - Number Guessing Game
+   Learn: random, loops, comparisons, break
+
+3. project3.py - To-Do List
+   Learn: lists, while loops, menu choices
+
+4. project4.py - Password Generator
+   Learn: strings, random choice, loops
+
+5. project5.py - Rock, Paper, Scissors
+   Learn: conditionals, logic, comparisons
+
+6. project6.py - Quiz Game
+   Learn: if/else, score counting, user input
+
+7. project7.py - Dice Roller
+   Learn: random, while loops, yes/no questions
+
+8. project8.py - Simple ATM
+   Learn: balance logic, conditions, math operations
+
+9. project9.py - Temperature Converter
+   Learn: formulas, input conversion, if/elif
+
+10. project10.py - Hangman Game
+   Learn: sets, strings, loops, checking guessed letters
+
+11. project11.py - BMI Calculator
+   Learn: math formulas, if/elif, output formatting
+
+12. project12.py - Expense Tracker
+   Learn: lists of tuples, totals, menus
+
+Recommended order:
+Start from project1 to project12.
+Practice one project at a time.
+Read the comments inside each file.
+Try changing the values and text.
+Then build your own project from memory.

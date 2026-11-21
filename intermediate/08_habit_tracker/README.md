@@ -1,7 +1,7 @@
 # Habit Tracker
 
-Mark a habit as done for the day and view your recent history. Data stays in a local JSON file.
-## Run
-`python main.py`
-## Try next
-Show streaks, support multiple habits, or add a weekly text report.
+Save dated habit check-ins locally and view the recent history.
+
+Run: `python main.py`
+
+Practice ideas: streak calculations, multiple habits per day, or weekly summaries.

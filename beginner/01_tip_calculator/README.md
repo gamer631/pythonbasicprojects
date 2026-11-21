@@ -1,9 +1,7 @@
 # Tip Calculator
 
-A small terminal tool for splitting a restaurant bill. It handles multiple people, tip percentages, and basic input validation.
+Split a bill and calculate a tip amount. Enter the total, tip rate, and group size.
 
-## Run
-`python main.py`
+Run: `python main.py`
 
-## Try next
-Add a preset tip menu, round each person's share to the nearest 5, or print a receipt.
+Practice ideas: add tip presets or round per-person totals.

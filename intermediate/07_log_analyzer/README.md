@@ -1,7 +1,7 @@
 # Log Analyzer
 
-Read a plain-text log file and count common log levels. This is useful practice with file handling, regular expressions, and command-line arguments.
-## Run
-`python main.py sample.log`
-## Try next
-Add date filtering, export the report to JSON, or recognize your own log format.
+Scan a text log and count DEBUG, INFO, WARNING, ERROR, and CRITICAL entries. Prints error lines for a quick review.
+
+Run: `python main.py app.log`
+
+Practice ideas: date filtering, CSV report, or support more log formats.

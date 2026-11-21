@@ -1,7 +1,7 @@
 # File Organizer
 
-Sort files in a directory into folders based on extension. It starts in dry-run mode; preview the moves before allowing changes.
-## Run
-`python main.py /path/to/folder` (Windows paths work too)
-## Safety
-This only moves files from the selected directory, not subfolders. Review the preview before confirming.
+Sort files in one directory by extension. The script prints a preview and only moves files after you type `YES`.
+
+Run: `python main.py C:/path/to/folder`
+
+Practice ideas: add dry-run command flag, sorting by file size, or undo log. It doesn't scan subfolders.

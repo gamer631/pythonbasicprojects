@@ -1,7 +1,7 @@
 # Task Manager
 
-A command-line task list with due dates, priority, completion state, and JSON persistence.
-## Run
-`python main.py`
-## Try next
-Add editing, overdue highlighting, or export tasks to CSV.
+Add tasks with priority and optional due dates, list them, mark complete, or remove them. Data persists in JSON.
+
+Run: `python main.py`
+
+Practice ideas: edit tasks, overdue alerts, or export to CSV.

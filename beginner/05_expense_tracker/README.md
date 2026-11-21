@@ -1,7 +1,7 @@
 # Expense Tracker
 
-Record simple expenses with category, amount, and note. The records are stored locally as JSON.
-## Run
-`python main.py`
-## Try next
-Add a monthly filter, CSV export, or a spending limit alert.
+Record expenses with a date, category, amount, and note. View totals by category.
+
+Run: `python main.py`
+
+Practice ideas: month filter, budget limits, and CSV export.

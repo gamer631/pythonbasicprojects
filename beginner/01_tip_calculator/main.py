@@ -1,28 +1,10 @@
-"""Calculate a tip and split the bill between diners."""
-
-
-def get_number(prompt: str, *, minimum: float = 0) -> float:
-    while True:
-        try:
-            value = float(input(prompt))
-            if value < minimum:
-                print(f"Please enter at least {minimum}.")
-                continue
-            return value
-        except ValueError:
-            print("That doesn't look like a number. Try again.")
-
-
-def main() -> None:
-    print("\nTip Calculator\n------------")
-    bill = get_number("Bill total: $", minimum=0.01)
-    tip_percent = get_number("Tip percentage: ")
-    people = int(get_number("How many people? ", minimum=1))
-    tip = bill * tip_percent / 100    total = bill + tip
-    print(f"\nTip: ${tip:.2f}")
-    print(f"Total: ${total:.2f}")
-    print(f"Each person pays: ${total / people:.2f}")
-
-
-if __name__ == "__main__":
-    main()
+"""Calculate a tip and split a bill."""
+def main():
+    try:
+        bill=float(input('Bill total (NPR): ')); rate=float(input('Tip percent: ')); people=int(input('People: '))
+        if bill<=0 or rate<0 or people<1: raise ValueError
+    except ValueError:
+        print('Enter a positive bill, non-negative tip, and at least one person.'); return
+    total=bill*(1+rate/100)
+    print(f'Tip: NPR {bill*rate/100:.2f}\nTotal: NPR {total:.2f}\nPer person: NPR {total/people:.2f}')
+if __name__=='__main__': main()
